@@ -41,7 +41,7 @@ export const Button = ({
             className={twMerge(baseStyles, variants[variant], sizes[size], className)}
             {...props}
         >
-            {children}
+            <span>{children}</span>
             {icon && <span className="ml-2">{icon}</span>}
         </motion.button>
     );
