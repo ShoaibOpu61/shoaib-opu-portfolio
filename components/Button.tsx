@@ -9,7 +9,9 @@ type ButtonProps = HTMLMotionProps<"button"> & {
     variant?: "primary" | "outline" | "ghost";
     size?: "sm" | "md" | "lg";
     icon?: React.ReactNode;
+    children?: React.ReactNode; // ✅ ADD THIS
 };
+
 
 
 export const Button = ({
